@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OZON</title>
+    <style>
+        :root{
+            --border:12px;
+        }
+        body{
+            background-color:#f2f6f9;
+            margin:0px;
+        }
+        header{
+            background-color: white;
+            display:flex;
+            flex-direction: row;
+            padding: 20px 250px;
+            gap: 30px;
+        }
+        .logo{
+            display:flex;
+            flex-direction: row;
+            height: 100%;
+        }
+        .logo img{
+            height:70%;
+        }
+        .katalog{
+            position: relative;
+            background-color: blue;
+            width:120px;
+            height:42px;
+            border-radius: 10px;
+            color: white;
+            font-family: "GTEestiPro",arial,sans-serif;
+            font-size: large;
+        }
+        .b20{
+            position: absolute;
+            margin-top: 10px;
+        }
+        .katalog1{
+            position: absolute;
+            margin-left: 35px;
+            margin-top: 12px;
+        }
+        .search{
+            display: flex;
+            flex-direction: row;
+        }
+        .search1{
+            width:500px;
+            height:35px;
+            border-radius: 0px 12px 12px 0px;
+            border-color: blue;
+        }
+        .links{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            gap:70px
+        }
+        .n5d{
+        position: absolute;
+            margin-top: 24px;
+            margin-left: -40px;
+        }
+        button{
+            padding: 0;
+            width: 50px;
+            height: 35px;
+            background-color: blue;
+            border: none;
+            color: white;
+            border-radius: var(--border);
+
+        }
+        .vezde{
+            position: relative;
+            top:2px;
+            left:2px;
+            background-color: rgb(185, 185, 185);
+            width: 60px;
+            height: 30px;
+            border-radius: 10px 0px 0px 10px;
+            color: rgb(95, 95, 95);
+
+        }
+        .osnova{
+            display: flex;
+            flex-direction: row;
+            gap:50px;
+        }
+        .neznay{
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            gap:25px;
+            padding: 10px 250px;
+        }
+        a:visited{
+            color: black;
+            font-family: GTEestiPro,arial,sans-serif;
+        }
+        a:hover{
+            color: blue;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .box{
+            position: relative;
+            display: block;
+            height: 800px;
+            width:1600px;
+            margin: auto;
+            margin-top: 20px;
+            background-color:white;
+            border-radius: 30px;
+        }
+        h1{
+            position: absolute;
+            margin-left: 50px;
+        }
+        .fresh{
+            position: relative;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            color: rgb(71, 141, 118);
+        }
+        .neznay2{
+            position: absolute;
+        }
+        .neznay1{
+            position: absolute;
+            width: 18px;
+
+        }
+        .links1{
+            position: relative;
+            margin-bottom: 10px;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+        .img1{
+            width:254px;
+            height:254px;
+        }
+        .img1 img{
+            border-radius: var(--border);
+            height:100%;
+        }
+        .price{
+            font-size: 40px;
+            color:crimson;
+        }
+        .skidka{
+             font-size: 25px;
+            color:red;
+        }
+        .rasprodazha{
+            position:relative;
+            bottom: 30px;
+            left:5px;
+            background-color: rgb(238, 64, 99);
+            width:110px;
+            height:22px;
+            color: white;
+            font-size: 20px;
+            border-radius: var(--border);
+            padding-left: 10px;
+        }
+        .box2{
+            position: absolute;
+            left: 70px;
+            top:70px;
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: repeat(5 280px)   ;
+            grid-template-rows: 350px 350px;
+            gap: 40px;
+            width:254px;
+        }
+        .herz{
+            position: absolute;
+            left:210px;
+            bottom: 220px;
+        }
+        figure{
+            width: 254px;
+            height: 254px;
+            position: relative;
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+        .text{
+            width:260px;
+        }
+        form{
+            border-radius: var(--border) ;
+            background-color: blue;
+            height:35px;
+            border-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+     <div class="osnova">
+        <div class="logo">
+            <img class="img-logo" src="logo-ozon.webp" alt="logo">
+        </div>
+        <div class="katalog"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="b20"><path fill="currentColor" d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m2 0a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m0 6a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m1 5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zm-4-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m1 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"></path></svg><span class="katalog1">Каталог</span></div>
+        <form>
+            <div class="search">
+                <div class="vezde">Везде<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="currentColor" d="m4 6 4 5 4-5z"></path></svg></div>
+                <input type="search" class="search1" placeholder="искать на озон">
+                <button class="poisk"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ag00-b1"><path fill="currentColor" d="M11 5a6 6 0 1 0 0 12 6 6 0 0 0 0-12m-8 6a8 8 0 1 1 14.281 4.955l4.419 4.33a1 1 0 1 1-1.4 1.43l-4.444-4.357A8 8 0 0 1 3 11"></path></svg></button>
+            </div>
+        </form>
+        
+        <div class="links">
+            <div class="voiti"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M8 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-8.3 4.286c.016.015.185.165.5.323.376.187.971.391 1.8.391s1.425-.204 1.8-.391c.175-.088.355-.19.5-.323a1 1 0 0 1 1.407 1.421C15.587 16.827 14.357 18 12 18c-2.358 0-3.587-1.173-3.707-1.293A1 1 0 0 1 9.7 15.286"></path><path fill="currentColor" d="M11 2a1 1 0 0 1 1-1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12a11 11 0 0 1 6.23-9.914 1 1 0 0 1 1.36.524c.292.72.69 1.565 1.362 2.233C10.592 5.481 11.524 6 13 6a1 1 0 1 1 0 2c-2.024 0-3.458-.743-4.459-1.74-.6-.596-1.027-1.267-1.34-1.875A9 9 0 1 0 12 3a1 1 0 0 1-1.001-1"></path></svg><span class="n5d">Войти</span></a></div>
+            <div class="zakazy"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M12.486 1.126a1 1 0 0 0-.972 0l-9 5A1 1 0 0 0 2 7v9.98a1 1 0 0 0 .515.894l9 5a1 1 0 0 0 .989-.01l8.982-4.99A1 1 0 0 0 22 17V7a1 1 0 0 0-.514-.874zM11 20.3l-7-3.89V8.7l2 1.11V13a1 1 0 1 0 2 0v-2.078l3 1.666zM7.5 8.356 5.06 7 12 3.144 14.441 4.5zM9.56 9.5l6.94-3.856L18.941 7l-6.94 3.856zM13 20.3v-7.712L20 8.7v7.712z"></path></svg><span class="n5d">Заказы</span></a> </div>
+            <div class="izbrannoe"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.5 21.5 0 0 0 12 19.91a21.6 21.6 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5m5 17c-.316-.02-.56-.147-.848-.278a23.5 23.5 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.6 23.6 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278"></path></svg><span class="n5d">Избранное</span></a></div>
+            <div class="korsina"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M6 6a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2h4a1 1 0 0 1 .986 1.164l-1.582 9.494A4 4 0 0 1 17.46 22H6.54a4 4 0 0 1-3.945-3.342L1.014 9.164A1 1 0 0 1 2 8h4zm2 2h5a1 1 0 1 1 0 2H3.18l1.389 8.329A2 2 0 0 0 6.54 20h10.92a2 2 0 0 0 1.972-1.671L20.82 10H17a1 1 0 0 1-1-1V6a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2z"></path></svg><span class="n5d">Корзина</span></a></div>
+        </div>
+     </div>
+    </header>
+    <div class="neznay">
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/cd/tc6/wc25/union.svg" srcset="https://ir.ozone.ru/s3/cms/cd/tc6/wc50/union.svg 2x" class="neznay2"><a href="#" class="fresh">Ozon fresh</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/52/tae/wc25/union_13.png" srcset="https://ir.ozone.ru/s3/cms/52/tae/wc50/union_13.png 2x" class="neznay1"><a href="#" class="links1">Ozon карта</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/fb/t19/wc25/ic_m_plane.svg" srcset="https://ir.ozone.ru/s3/cms/fb/t19/wc50/ic_m_plane.svg 2x" class="neznay1"><a href="#" class="links1">Билеты, отели, туры</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/17/t22/wc25/ic_m_dresses.png" srcset="https://ir.ozone.ru/s3/cms/17/t22/wc50/ic_m_dresses.png 2x" class="neznay1"><a href="#" class="links1">Одежда и обувь</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/cc/tf7/wc25/ic_m_electronics.png" srcset="https://ir.ozone.ru/s3/cms/cc/tf7/wc50/ic_m_electronics.png 2x" class="neznay1"><a href="#" class="links1">Электроника</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/a8/te3/wc25/union_8.png" srcset="https://ir.ozone.ru/s3/cms/a8/te3/wc50/union_8.png 2x" class="neznay1"><a href="#" class="links1">Дом и сад</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/ff/tc3/wc25/union_3.png" srcset="https://ir.ozone.ru/s3/cms/ff/tc3/wc50/union_3.png 2x" class="neznay1"><a href="#" class="links1">Детские товары</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/47/t41/wc25/union_14.png" srcset="https://ir.ozone.ru/s3/cms/47/t41/wc50/union_14.png 2x" class="neznay1"><a href="#" class="links1">Акции</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/07/tcb/wc25/ic_m_status_points3x.svg" srcset="https://ir.ozone.ru/s3/cms/07/tcb/wc50/ic_m_status_points3x.svg 2x" class="neznay1"><a href="#" class="links1">Премиум</a></div>
+        <div><img loading="lazy" fetchpriority="low" src="https://ir.ozone.ru/s3/cms/02/t9e/wc25/ic_m_gift_1.png" srcset="https://ir.ozone.ru/s3/cms/02/t9e/wc50/ic_m_gift_1.png 2x" class="neznay1"><a hover="#" class="links1">Подарочные сертификаты</a></div>
+    </div>
+    <div class="box">
+        <h1>Рекомендуем для вас</h1>
+        <div class="box2">
+            <div class="karta1">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta2">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta3">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta4">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta5">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta6">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta7">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta8">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta9">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">   -68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи</p></div>
+            </div>
+            <div class="karta10">
+                <figure>
+                    <div class="img1"><img src="ozonwebsite.webp"></div>
+                    <figcaption class="herz"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" ><path fill="#00192E" fill-rule="evenodd" d="M12 22c-.316-.02-.56-.147-.848-.278a23.542 23.542 0 0 1-4.781-2.942C3.777 16.705 1 13.449 1 9a6 6 0 0 1 6-6 6.183 6.183 0 0 1 5 2.568A6.183 6.183 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278ZM7 5a4 4 0 0 0-4 4c0 3.552 2.218 6.296 4.621 8.22A21.525 21.525 0 0 0 12 19.91a21.58 21.58 0 0 0 4.377-2.69C18.78 15.294 21 12.551 21 9a4 4 0 0 0-4-4c-1.957 0-3.652 1.396-4.02 3.2a1 1 0 0 1-1.96 0C10.652 6.396 8.957 5 7 5Z" clip-rule="evenodd"></path><path fill="white" fill-rule="evenodd" d="M12 22c-.285-.018-.512-.123-.764-.24a21.77 21.77 0 0 1-1.273-.628 23.542 23.542 0 0 1-3.592-2.351C3.777 16.704 1 13.448 1 9a6 6 0 0 1 6-6 6.18 6.18 0 0 1 5 2.568A6.18 6.18 0 0 1 17 3a6 6 0 0 1 6 6c0 4.448-2.78 7.705-5.375 9.78a23.599 23.599 0 0 1-4.78 2.942c-.543.249-.732.278-.845.278Zm0-17.959A7.178 7.178 0 0 1 17 2a7 7 0 0 1 7 7c0 4.897-3.061 8.41-5.75 10.562a24.585 24.585 0 0 1-4.989 3.07c-.566.258-.92.368-1.261.368h-.032l-.033-.002c-.484-.032-.881-.218-1.12-.33a22.658 22.658 0 0 1-1.322-.653 24.524 24.524 0 0 1-3.747-2.454C3.058 17.41 0 13.896 0 9a7 7 0 0 1 7-7c1.918 0 3.701.776 5 2.041ZM3 9a4 4 0 0 1 4-4c1.957 0 3.652 1.396 4.02 3.2a1 1 0 0 0 1.96 0C13.348 6.396 15.043 5 17 5a4 4 0 0 1 4 4c0 3.552-2.22 6.295-4.625 8.22A21.58 21.58 0 0 1 12 19.91a21.525 21.525 0 0 1-4.377-2.69C5.217 15.295 3 12.551 3 9Z" clip-rule="evenodd"></path></svg></figcaption>
+                    <div class="rasprodazha">Распродажа</div>
+                </figure>
+                <p><span class="price">223 P</span> <del>700 P</del> <span class="skidka">-68%</span></p>
+                <div class="text"><p>Брелок-игрушка стич/брелок на ключи </p></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
